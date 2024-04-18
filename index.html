@@ -5,14 +5,67 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Loyola University Maryland Colloquium 2024</title>
+
+        <style>
+
+            .container
+            {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .colloquium-container
+            {
+                display: block;
+                align-items: center;
+                justify-content: left;
+            }
+
+            img
+            {
+                max-height: 100%;
+                max-width: 100%;
+            }
+
+            .text
+            {
+                font-size: 17px;
+                padding-left: 20px;
+            }
+
+        </style>
     </head>
 
     <body>
-        <h1>Megan O'Grady</h1>
-        <hr />
+        <div class = "container">
+            <div class = "image">
+                <img src = "./images/meganogrady.jpeg" alt = "Headshot of Megan O'Grady.">
+            </div>
+            <div class = "text">
+                <h1>
+                    Megan O'Grady
+                </h1>
+                <p>
+                    Megan is an emerging scientist in the field of ecology. She is completing her
+                    B.S. in Biology at Loyola University Maryland this Spring and is looking
+                    forward to applying to PhD programs next Fall for the 2025 cycle.
+                    <br><br>
+                    Contact her at 'mogrady1 at loyola dot edu' or follow her on Instagram at <a href = "https://www.instagram.com/cnidariology?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@cnidariology</a>.
+                </p>
+            </div> <!--End text div-->
+        </div> <!--End container div-->
 
-        <h2><a href = "./shannonMap.html">Shannon Map</a></h2>
-        
-        <h2><a href = "./simpsonsMap.html">Simpsons Map</a></h2>
+        <hr /> <!--Line break-->
+
+        <div class = "colloquium-container">
+            <h2>Undergraduate Research Colloquium | Loyola University Maryland </h2>
+            <h3>
+                April 19th, 2024 | Beatty 114 at 4:15 PM
+                <br><br> 
+            </h3>
+            <h4><a href = "./shannonMap.html">Shannon Map</a></h4>
+            <h4><a href = "./simpsonsMap.html">Simpsons Map</a></h4>
+        </div> <!--End container div-->
     </body>
 </html>
